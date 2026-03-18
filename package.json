@@ -1,0 +1,17 @@
+{
+  "name": "multi-agent-bugfixer",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@9",
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm --recursive build",
+    "lint": "pnpm --recursive lint",
+    "test": "pnpm --recursive test"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.37",
+    "turbo": "^2.8.17",
+    "typescript": "^5.9.3"
+  }
+}
